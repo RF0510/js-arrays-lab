@@ -9,4 +9,5 @@ const foods = ["pizza", "cheeseburger"];
 foods.unshift("taco");
 
 
+
 console.log('Exercise 3 result:', foods);
