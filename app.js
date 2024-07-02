@@ -1,13 +1,14 @@
 /*
-Exercise 6: Replace elements
+Exercise 7: Using the `slice()` method
 
-1) Replace 'pizza' in the `foods` array with 'sushi' and 'cupcake'.
+1) Use the `slice()` method to create a new array that contains 'sushi' and 
+   'cupcake'.
 
-Complete Exercise 6 in the space below:
+2) Assign it to a variable named `yummy`.
+
+Complete Exercise 7 in the space below:
 */
+const foods = ["pizza", "cupcake", "sushi", "hotdog"]
+const yummy = foods.slice(-3, -1)
 
-const foods = ["Pizza", "cheesebuger" ];
-foods.splice(0, 1, "sushi", "cupcake");
-
-
-console.log('Exercise 6 result:', foods);
+console.log('Exercise 7 result:', yummy);
