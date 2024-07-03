@@ -1,17 +1,22 @@
 /*
-Exercise 8: Finding an index
+Exercise 9: Joining elements
 
-1) Using the `indexOf()` method, find the index of the string 'tofu' in the 
-   `foods` array. 
+1) Use the `join()` method to concatenate the strings in the `foods` array, 
+   separated by ' -> '. 
 
-2) Assign it to a variable named `soyIdx`.
+2) Assign the result to a variable called `allFoods`. 
 
-Complete Exercise 8 in the space below:
+Note: The final result should log as:
+'taco -> sushi -> cupcake -> tofu -> cheeseburger'
+
+Complete Exercise 9 in the space below:
 */
-const foods = ["pizza", "hotdog", "tofu", "cheesebuger"];
-
-const soyIdx = foods.indexOf("tofu");
 
 
 
-console.log('Exercise 8 result:', soyIdx);
+
+
+const foods = ["taco", "sushi", "cupcake", "tofu", "cheesebuger"];
+const allFoods = (foods.join ("->"));
+
+console.log('Exercise 9 result:', allFoods);
