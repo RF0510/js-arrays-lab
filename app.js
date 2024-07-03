@@ -1,22 +1,15 @@
 /*
-Exercise 9: Joining elements
+Exercise 10: Check for an element
 
-1) Use the `join()` method to concatenate the strings in the `foods` array, 
-   separated by ' -> '. 
+1) Using the .includes() method, check if the `foods` array contains the string
+   'soup'.
 
-2) Assign the result to a variable called `allFoods`. 
+2) Assign the result to a variable called `hasSoup``.
 
-Note: The final result should log as:
-'taco -> sushi -> cupcake -> tofu -> cheeseburger'
-
-Complete Exercise 9 in the space below:
+Complete Exercise 10 in the space below:
 */
 
-
-
-
-
 const foods = ["taco", "sushi", "cupcake", "tofu", "cheesebuger"];
-const allFoods = (foods.join ("->"));
+const hasSoup = (foods.includes("soup"));
 
-console.log('Exercise 9 result:', allFoods);
+console.log('Exercise 10 result:', hasSoup);
