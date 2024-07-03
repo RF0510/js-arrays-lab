@@ -1,15 +1,27 @@
 /*
-Exercise 10: Check for an element
+Exercise 11: Odd numbers from an array
 
-1) Using the .includes() method, check if the `foods` array contains the string
-   'soup'.
+1) Choose a method to iterate through the `nums` array.
 
-2) Assign the result to a variable called `hasSoup``.
+2) Push each odd number to a new array named `odds`.
 
-Complete Exercise 10 in the space below:
+Hint: Initialize the `odds` variable to an empty array before the iteration.
+
+Complete Exercise 11 in the space below:
 */
 
-const foods = ["taco", "sushi", "cupcake", "tofu", "cheesebuger"];
-const hasSoup = (foods.includes("soup"));
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
-console.log('Exercise 10 result:', hasSoup);
+let odds = [];
+
+for(let i = 0; i < nums.length; i++) 
+
+    { if (nums[i] % 2 !== 0)  //Used ChatGPT
+        
+        { odds.push(nums[i]);
+    }
+}
+
+console.log('Exercise 11 result:', odds);
+
+
