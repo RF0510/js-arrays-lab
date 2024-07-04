@@ -1,15 +1,14 @@
 /*
-Exercise 13: Retrieve the Last Array
+Exercise 14: Accessing within nested arrays
 
-1) Assign the last nested array in the `numArrays` below to a variable named
-   `numList`. As you do this, also fulfill these goals:
+1) Retrieve the number `66` from the `numArrays` array. As part of this process
+   do not alter the original `numArrays` array.
 
-   - Assume you don't know how many nested arrays `numArrays` contains.
-   - Do not alter the original `numArrays` array.
+2) Assign it to a variable called `num`.
 
-Complete Exercise 13 in the space below:
+Complete Exercise 14 in the space below:
 */
-//used ChatGPT
+
 const numArrays = [
 	[100, 5, 23],
 	[15, 21, 72, 9],
@@ -17,6 +16,6 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
-const numList = numArrays[numArrays.length -1];
+const numList = numArrays[numArrays.length - 1];
 
-console.log('Exercise 13 result:', numList);
+console.log('Exercise 14 result:', numList);
